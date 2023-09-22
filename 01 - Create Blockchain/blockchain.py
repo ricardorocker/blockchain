@@ -20,3 +20,6 @@ class Blockchain: #Class creation
             }
         self.chain.append(block) #Add this element to Chain array
         return block
+    
+    def get_previous_block(self): #Creation getPreviouBlock
+        return self.chain[-1] #Return Chain array previous
